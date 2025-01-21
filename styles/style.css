@@ -161,7 +161,7 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image:;
+    
 }
 .stardard-title{
     font-size: 46px;
@@ -241,15 +241,223 @@ padding-left: 40px;
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
+/* our stories styles */
+.main-container{
+    width: 1440px;
+    height: 1018.02px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     background: url(../assets/bg.png);
+     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
+.out-stories{
+     color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.our-container{
+    display: flex;
+    width: 1160px;
+    height: 630.52px;
+    order: 1;
+    flex-grow: 0;
+     margin: 80px 0px;
+     gap: 19px;
+     /* background: url(../assets/bg.png); */
+}
+.our-div{
+width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.our-title{ 
+color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 34px;
+padding-left: 38px;
+padding-right: 99px;
 
 
+}
+
+.our-description{
+ color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;;
+padding-left: 38px;
+padding-right: 68px;
+margin-top: -20px;
+
+}
+
+.our-btn{
+    position: absolute;
+    width: 174.51px;
+    height: 47.93px;
+    border-radius: 47.93px;
+    border: none;
+    background: rgb(60, 216, 232);
+    color: #FFFFFF;
+    margin-top: -285px;
+    margin-left: 38px;
+   
+}
+.div-container{
+width: 601px;
+height: 622.4px;
+left: 699px;
+right: -140px;
+top: 197.5px;
+bottom: -189.38px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap:19px ;
+}
+
+.div-child{
+border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 290.69px;
+height: 301.61px;
+}
+
+.div-title{
+ color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+padding-left:37px ;
+padding-right: 50px;
+}
+
+.div-btn{
+    position: absolute;
+width: 174.51px;
+height: 38.35px;
+border-style: none;
+border-radius: 47.93px;
+background: rgb(149, 178, 38);
+margin-top: -25px;
+margin-left: 38px;
+}
+.div-btn-color{
+ border-radius: 47.93px;
+background: rgb(93, 88, 240);
+}
+
+.btn-16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-view {
+    background: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    width: 197px;
+height: 50px;
+}
+
+.btn-view:hover {
+    background-color: #0056b3;
+}
 
 
-@media screen and (max-width:576px) {
-    .link-1{
-        display: none;
-    }
-    .contact{
-        display: none;
-    }
+/* footer styles */
+
+.footer {
+    width: 1439px;
+    height: 400px;
+    background-color: #00aaff;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+.footer-column{
+    display: flex;
+}
+.footer-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.img-kids{
+    /* Group 1 */
+position: absolute;
+width: 82.9px;
+height: 81.65px;
+display: flex;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+
+.footer-description{
+   padding-top: 200px;
+   padding-right: 700px;
+   margin-left: 100px;
+    
+}
+
+/* mehedi vai */
+
+.footer-a {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-a li {
+    margin: 0;
+}
+
+.footer-a a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-a a:hover {
+    color: #ffdd57;
+}
+.footer-h4{
+    position: absolute;
+    padding-left: -100px;
+    
 }
