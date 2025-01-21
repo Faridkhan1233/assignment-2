@@ -17,6 +17,8 @@
 .naber{
     display: flex;
     justify-content: space-between;
+    width: 1450px;
+height: 62px;
  
 }
 .logo{
@@ -31,6 +33,7 @@
 }
 .div-1{
     display: flex;
+    margin-left: 140Px;
     
 }
 
@@ -76,9 +79,11 @@ ul{
 }
 .contact{
     margin-top: 20px;
+    margin-right: 140px;
 }
 
-button{
+
+.contact{
     width: 197px;
     height: 50px;
     border-radius: 12px;
@@ -89,13 +94,18 @@ button{
     border: none;
 }
 
+
 /* banner styles */
 .banner{
     
+    width: 1158.61px;
+    height: 575px;
     display: flex;
    
-width: auto;
-height: 575px;
+    width: auto;
+    height: 575px;
+    gap: 50px;
+    margin-right: 100px;
 }
 .div-3{
    
@@ -107,9 +117,12 @@ justify-content: flex-start;
 align-items: flex-start;
 align-items: flex-start;
 margin-top: 125px;
+margin-left: 140px;
 }
 .div-4{
-    margin-left: 380px;
+    margin-left:50px;
+
+
 }
 .banner-title{
     font-size: 50px;
@@ -136,7 +149,102 @@ text-align: left;
 height: 50px;
 border-radius: 12px;
 background: rgb(17, 17, 17);
+color: #FFFFFF;
 }
+
+/* stardard styles */
+
+.stardard{
+    width: 1440px;
+    height: 879px;
+    padding: 60px 0px 60px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image:;
+}
+.stardard-title{
+    font-size: 46px;
+font-weight: 700;
+text-align: center;
+font-family: Quicksand;
+color: rgb(0, 0, 0);
+}
+
+.card{
+    display: flex;
+    width: 1160px;
+    height: 481.5px;
+    bottom: -197.5px;
+    margin-top:80px ;
+    margin-left: 150px;
+    gap: 28.29px;
+}
+.card-1{
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+     border: 0.94px solid rgb(222, 245, 255);
+     border-radius: 18.86px;
+     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    
+}
+.card-img{
+    margin-left:110px;
+    margin-top: 60px;
+}
+.card-title{
+ text-align: center;
+ margin-top: 44px;
+ font-size: 24.52px;
+ font-weight: 700;
+ font-family: Quicksand;
+ color: rgb(32, 32, 32);
+ 
+}
+.card-description{
+width: 260.26px;
+height: 74.51px;
+color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+padding-left: 40px;
+}
+
+.card-btn{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom:58 px;
+    border-style: none; 
+    margin-top: 30px;
+}
+.color-1{
+    color:#F0AA00 ;
+}
+.color-2{
+    color: #8700FF;
+}
+.back-1{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.back-2{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+
+
+
+
 @media screen and (max-width:576px) {
     .link-1{
         display: none;
